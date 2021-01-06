@@ -12,12 +12,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
-    
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
     <title>Contact Entreprise Webdesign Lyon </title>
 
     
@@ -31,7 +25,7 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
@@ -46,21 +40,20 @@
 						<a href="index.html">Accueil</a>
 					</li>
 					<li>
-					</li>
-					<li>
+						<a href="page2.html">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-</div>
+</header>
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
 <div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
 	<div class="container bloc-lg">
 		<div class="row">
-			<div class="col-sm-12">
+			<section class="col-sm-12">
 				<h1 class="text-center hero-bloc-text tc-white">
 					Parlons web design !
 				</h1>
@@ -68,7 +61,7 @@
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
-			</div>
+			</section>
 		</div>
 	</div>
 </div>
@@ -81,25 +74,25 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="input_504">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input class="form-control" type="text" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
@@ -124,7 +117,7 @@
 
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
@@ -134,34 +127,38 @@
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" target="_blank" aria-label="lien vers twitter" href="https://twitter.com/?lang=fr"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" target="_blank" aria-label="lien vers facebook" href="https://fr-fr.facebook.com/"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" target="_blank" aria-label="lien vers dribbble" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" target="_blank" aria-label="lien vers instagram"  href="https://www.instagram.com/"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
 
 </div>
 <!-- Principal conteneur END -->
-    
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jqBootstrapValidation.min.js"></script>
+	<script src="./js/formHandler.min.js"></script>
 
 </body>
 </html>
