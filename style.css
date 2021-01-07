@@ -27,6 +27,14 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.focus:focus{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px #000;
+    border: 2px solid black;
+}
+
+
+
 .bloc {
     width: 100%;
     clear: both;
