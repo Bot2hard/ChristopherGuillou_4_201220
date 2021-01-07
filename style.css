@@ -87,7 +87,10 @@ a:hover {
 .bg-t-edge {
     background: top no-repeat;
 }
-
+.col-sm-122 h1,
+.col-sm-122 p{
+    color: black!important;
+}
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
