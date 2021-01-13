@@ -780,8 +780,14 @@ h4 {
 }
 
 .tc-white {
+    color:#FFF!important;
+    background-color: rgb(44, 44, 44, .5);
+    border-radius: 1.25em;
+}
+.tc-white1 {
     color:#000!important;
 }
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
